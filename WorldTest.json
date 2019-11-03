@@ -1,0 +1,28 @@
+{
+  "WelcomeMessage": "Welcome to Room",
+  "World": {
+    "StartingLocation": "Room",
+    "Rooms": [
+      {
+        "Name": "Room",
+        "Description": "It is a room",
+        "Neighbors": {
+          "North": "Room",
+          "South": "Room",
+          "East": "Room",
+          "West": "Room"
+        }
+      },
+      {
+        "Name": "Room2",
+        "Description": "So Good there was 2",
+        "Neighbors": {
+          "North": null,
+          "South": null,
+          "East": null,
+          "West": null
+        }
+      }
+    ]
+  }
+}

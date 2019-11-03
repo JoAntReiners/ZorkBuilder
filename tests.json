@@ -1,0 +1,18 @@
+{
+  "WelcomeMessage": null,
+  "World": {
+    "StartingLocation": null,
+    "Rooms": [
+      {
+        "Name": "Room",
+        "Description": null,
+        "Neighbors": {
+          "North": "sdfasdf",
+          "South": "asdf",
+          "East": null,
+          "West": null
+        }
+      }
+    ]
+  }
+}
