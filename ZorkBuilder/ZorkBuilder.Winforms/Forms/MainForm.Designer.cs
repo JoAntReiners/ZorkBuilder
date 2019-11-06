@@ -80,7 +80,7 @@
             this.fileToolStripMenuItem});
             this.MainMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.MainMenuStrip.Name = "MainMenuStrip";
-            this.MainMenuStrip.Size = new System.Drawing.Size(900, 24);
+            this.MainMenuStrip.Size = new System.Drawing.Size(639, 24);
             this.MainMenuStrip.TabIndex = 0;
             this.MainMenuStrip.Text = "menuStrip1";
             // 
@@ -175,7 +175,7 @@
             this.RoomsTabPage.Location = new System.Drawing.Point(4, 22);
             this.RoomsTabPage.Name = "RoomsTabPage";
             this.RoomsTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.RoomsTabPage.Size = new System.Drawing.Size(892, 420);
+            this.RoomsTabPage.Size = new System.Drawing.Size(631, 420);
             this.RoomsTabPage.TabIndex = 0;
             this.RoomsTabPage.Text = "Rooms";
             this.RoomsTabPage.UseVisualStyleBackColor = true;
@@ -335,7 +335,7 @@
             this.MainTabControl.Location = new System.Drawing.Point(0, 24);
             this.MainTabControl.Name = "MainTabControl";
             this.MainTabControl.SelectedIndex = 0;
-            this.MainTabControl.Size = new System.Drawing.Size(900, 446);
+            this.MainTabControl.Size = new System.Drawing.Size(639, 446);
             this.MainTabControl.TabIndex = 1;
             // 
             // WorldSettingsTab
@@ -347,7 +347,7 @@
             this.WorldSettingsTab.Location = new System.Drawing.Point(4, 22);
             this.WorldSettingsTab.Name = "WorldSettingsTab";
             this.WorldSettingsTab.Padding = new System.Windows.Forms.Padding(3);
-            this.WorldSettingsTab.Size = new System.Drawing.Size(892, 420);
+            this.WorldSettingsTab.Size = new System.Drawing.Size(631, 420);
             this.WorldSettingsTab.TabIndex = 1;
             this.WorldSettingsTab.Text = "World Settings";
             this.WorldSettingsTab.UseVisualStyleBackColor = true;
@@ -397,9 +397,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 470);
+            this.ClientSize = new System.Drawing.Size(639, 470);
             this.Controls.Add(this.MainTabControl);
             this.Controls.Add(this.MainMenuStrip);
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "Zork Builder";
             this.MainMenuStrip.ResumeLayout(false);
